@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  height: 30vh;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 15px;
+}
+.container :hover {
+  color: red;
+}
+
+.container__paragrapgh:hover {
+  background-color: red;
+  color: white;
+}
+
+input:hover {
+  background-color: red;
+}
+
+.form__paragraph::first-letter {
+  color: red;
+}
+
+.form__paragraph__two::first-line {
+  color: red;
+}
+
+.paragraph_tree::after {
+  content: url(image/emoji.webp);
+  height: 10px;
+  width: 10px;
+}
+
+.paragraph_tree::before {
+  content: url(image/emoji.webp);
+  height: 10px;
+  width: 10px;
+}
+
+.form {
+  display: flex;
+  height: 20vh;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.final {
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.form__paragraph {
+  margin-left: 115px;
+}
+
+body {
+  background: url(image/goku.jpg);
+}
